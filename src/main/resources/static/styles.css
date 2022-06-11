@@ -1,0 +1,31 @@
+.login{
+    height: 100vh;
+    padding: 2rem;
+    background-image: linear-gradient(to right,#eeaeca, #94bbe9);
+    border-radius: 20px;
+}
+
+.login h1{
+    text-align: center;
+}
+html, body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.table{
+    margin: auto 0;
+    font-size: 1rem;
+}
+h1{
+    text-align: center;
+}
+
+.formulario{
+    display: none;
+}
+
+.title{
+    padding: 20px;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./scripts.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<section class="login" >
+    <div class="container" >
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" >
+                <span id="reauth-email" class="reauth-email"></span>
+                <input  name="email" type="email" id="email" class="form-control" placeholder="Digite seu email" required autofocus>
+                <input  name="senha" type="password" id="senha" class="form-control" placeholder="Digite sua senha" required>
+                <button onclick="logar()"  class="btn btn-lg btn-primary btn-block btn-signin" type="button">Entrar</button>
+            </form>
+            <a href="cadastro.html" class="forgot-password">
+                Deseja se cadastrar?
+            </a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
